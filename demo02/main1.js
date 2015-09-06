@@ -13,7 +13,7 @@ $(function() {
     });
 
     $('img').on('click', function(){
-    	$(this).attr('src', require('./like_n.jpg'));
+    	$(this).attr('src', require('file?name=img/img-[sha512:hash:base64:7].[ext]!./like_n.jpg'));
     });
 
 });

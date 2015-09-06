@@ -10,6 +10,12 @@ module.exports = {
         loaders: [{
             test: /\.css$/,
             loader: "style!css!autoprefixer"
+        }, {
+            test: /\.jpg$/,
+            loader: "url-loader",
+            query: {
+                mimetype: "image/jpg"
+            }
         }]
     }
 };

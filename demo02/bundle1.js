@@ -9326,7 +9326,7 @@
 
 
 	// module
-	exports.push([module.id, "body{\n\tbackground-color: red;\n}", ""]);
+	exports.push([module.id, "h2{\n\tdisplay: -webkit-box;\n\tdisplay: -webkit-flex;\n\tdisplay: -ms-flexbox;\n\tdisplay: flex;\n}\nbody{\n\tbackground-color: red;\n}", ""]);
 
 	// exports
 
